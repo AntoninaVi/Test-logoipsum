@@ -157,13 +157,20 @@ html {
 /* Logo list end */
 /* Page-index */
 .page-index {
+    margin: 0 auto;
 }
 .img-index {
-    padding: 100px;
+    padding-top: 159px;
+    display: flex;
+    justify-content: start;
+}
+.subscrition-index {
+    position: relative;
+    left: 600px;
+    bottom: 362px;
 }
 
 .title-index {
-    display: flex;
     line-height: 103%;
     font-size: 50px;
 }
@@ -184,5 +191,8 @@ html {
     background: none;
     border-style: none;
     cursor: pointer;
+}
+.btn-learn:hover {
+    color: #ff7143;
 }
 /* Page-index end*/
